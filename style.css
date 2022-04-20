@@ -1,0 +1,151 @@
+body{
+  font-family: Helvetica, sans-serif;
+  font-size: 1rem;
+  color: white;
+  justify-items: center;
+}
+.nav-head{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  z-index: 1;
+  display: flex;
+  top:-10px;
+}
+li {
+  position: relative;
+  float:right;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  top: 25px;
+}
+.title-nav{
+  margin-left: 140px;
+  margin-top: 20px;
+}
+
+.presentation{
+  position: relative;
+  display:flex;
+  height:700px;
+  top: -100px;
+  justify-content: center;
+  background-color: #0061f2 !important;
+  background-image: linear-gradient(135deg, #0061f2 0%, rgba(105, 0, 199, 0.8) 100%) !important;
+
+
+}
+.container-pres{
+  position: relative;
+  display:flex;
+  flex-direction: row;
+  top: 10rem;
+}
+.text-head{
+  align-items: center;
+  margin-top: 5rem;
+  margin-left: 9rem;
+  margin-right: 5rem;
+}
+.im-pres{
+  position:relative;
+  width: 25rem;
+  height: 25rem;
+  margin-right: 9rem;
+  
+}
+
+
+.g-start{
+  background-color: rgb(101, 226, 184);
+  color: white;
+  font-weight: 500;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 0.5rem;
+  padding: 0.875rem 1.125rem;
+  font-size: 0.875rem;
+  border-radius: 0.35rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.g-start:hover{
+  
+  background-color: rgb(74, 162, 132);
+}
+.svg-wave{
+  position: relative;
+  top: -450px;
+}
+.icons{
+  position: relative;
+  top: -700px;
+  justify-content: center;
+  border-radius: 0 0 40px 0;
+  background-color: white;
+  padding: 96px 0px;
+  display: flex;
+  flex: row;  
+
+}
+.icon-circ{
+  background-color: #0061f2 !important;
+  background-image: linear-gradient(135deg, #0061f2 0%, rgba(105, 0, 199, 0.8) 100%) !important;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+
+
+}
+.icon-box{
+align-items: center;
+margin-left: 80px;
+justify-content: center;
+
+}
+.svg-icons{
+  
+}
+.h-icons{
+  color: black;
+  font-size:20px ;
+
+
+}
+
+.p-icons{
+  color: grey;
+  font-size:16px ;
+}
+.container-icon{
+  justify-content: center;
+  width: 306px;
+  height: 232px ;
+  padding: 0px 12px;
+
+}
+.img-portf{
+  margin: 100px;
+  height: 300px;
+  box-shadow: -7px 10px 13px 13px rgba(0,0,0,0.21);
+-webkit-box-shadow: -7px 10px 13px 13px rgba(0,0,0,0.21);
+-moz-box-shadow: -7px 10px 13px 13px rgba(0,0,0,0.21);
+transform: rotateY(30deg) rotateX(15deg)
+}
+
+.svg-wave2{
+  position: relative;
+  top: 50px;
+}
+
+.sec3{
+  background-color:#e3ddfa ;
+  position: relative;
+  top:-35rem;
+}
